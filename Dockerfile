@@ -5,7 +5,7 @@ ENV ZK zookeeper:2181
 ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
 ENV CLUSTER supercluster_v6
 ENV CONTROLLER helix_1
-ENV MODE DISTRIBUTED
+ENV MODE STANDALONE
 
 # install tools get needed software
 RUN apt-get update && apt-get install -y python-software-properties software-properties-common wget
